@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'heebo', sans-serif;
+}
+
+body {
+    background-image: url('../pictures/homeBG.jpg');
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    /* background-color: #101010; */
+    color: white;
+}
+
+.selected {
+    color: #e5b959;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    gap: 35px;
+    cursor: pointer;
+    
+}
+
+.navbar li {
+    padding: 3.5px;
+    text-decoration: none;
+    list-style-type: none;
+    transition-duration: 350ms;
+    transition-property: background, color, border-radius;
+}
+
+.navbar li:hover {
+    background-color: #e5b959;
+    color: black;
+    border-radius: 3px;
+}
+
+.main {
+    width: 100%;
+}
+
+.welcome p {
+    text-align: center;
+    position: absolute;
+    font-size: 15px;
+}
+
+.welcome h1 {
+    font-size: 70px;
+    color: #e5b959;
+    padding-top: 7px;
+}
+
+.grid {
+    display: grid;
+    /* grid-template-columns: repeat(2, 1fr); */
+    grid-template-columns: 1fr 1fr;
+    color: white;
+    width: 75%;
+    margin: auto;
+    padding: 15px;
+    gap: 20px;
+}
+
+.content {
+    text-align: left;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.contentImg {
+    overflow: hidden;
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0;
+    background-repeat: no-repeat;
+}
