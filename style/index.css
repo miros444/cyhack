@@ -8,25 +8,36 @@ body {
     background-color: rgb(48, 47, 47);
 }
 
+.container {
+    background-color: rgb(2, 2, 2);
+    height: 95%;
+    width: 95%;
+    margin: auto;
+    margin-top: 25px;
+    border: rgba(196, 196, 196, 0.251) solid 0.5px;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 10px 10px 10px #292727;
+}
+
 .navbar {
     display: flex;
     justify-content: center;
     width: 100%;
-    gap: 10px;
-    padding: 20px;
+    padding: 20px 0;
     color: white;
     z-index: 100;
     border-bottom: #41403fac solid 0.01px;
 }
 
 .selected {
-    color: #e5b959;
+    color: #e5b959 !important;
 }
 
 .navbar ul {
     display: flex;
     justify-content: space-around;
-    font-size: 18px;
+    font-size: 2vh;
     gap: 35px;
     cursor: pointer;
 }
@@ -43,23 +54,12 @@ body {
 
 .navbar li:hover {
     background-color: #e5b959;
-    color: black;
+    color: black !important;
 }
 
-.container {
-    background-color: rgb(2, 2, 2);
-    height: 95%;
-    width: 95%;
-    margin: auto;
-    margin-top: 25px;
-    border: rgba(196, 196, 196, 0.251) solid 0.5px;
-    border-radius: 25px;
-    overflow: hidden;
-    box-shadow: 10px 10px 10px #292727;
-}
 
 .image {
-    height: 650px;
+    height: 85vh;
     float: right;
 }
 
@@ -71,6 +71,10 @@ body {
     max-width: 40%;
 }
 
+.content h1 {
+    font-size: 7vh;
+}
+
 .content p {
-    font-size: 20px;
+    font-size: 2.6vh;
 }
