@@ -1,0 +1,25 @@
+{
+    "guide":[
+        {
+            "id": 1,
+            "title": "The dangers lurking in the web",
+            "content": "The internet is a powerful tool that has changed the way we live, work, and communicate. \n <br> However, it also presents many dangers, including malware, viruses, and phishing scams. These threats can have serious consequences, from the loss of personal information to the destruction of important files and even financial loss. In order to protect yourself from these dangers, it is important to be aware of the risks and take steps to stay safe while browsing the internet. One of the most ןmportant things you can do to protect yourself from malware, viruses, and phishing scams is to keep your operating system and all software up to date. Many updates include security patches that address known vulnerabilities. This is particularly important for software that you use frequently, such as your web browser and email client. Another essential step is to use anti-virus software. This software can detect and remove malware from your computer. Make sure to keep your anti-virus software updated and run regular scans to ensure that your computer is free from malware. Be cautious when opening email attachments or clicking on links. Malware can often be spread through email attachments and links. Be wary of opening attachments or clicking on links from unknown senders, and even from known senders if the email is unexpected or suspicious. Use a firewall and a pop-up blocker. A firewall can help prevent unauthorized access to your computer and can also block malicious network traffic. Pop-up blockers can help prevent unwanted and potentially malicious pop-up windows from appearing. Avoid downloading pirated software. Pirated software is often bundled with malware. Only download software from reputable sources. Be wary of social engineering. Malware can be spread through social engineering tactics such as phishing emails, phone scams, and text message scams. Be cautious of unexpected phone calls or emails and never give personal information to unsolicited callers or emailers. Use a VPN. Using a Virtual Private Network (VPN) can help protect your online activity and personal information from cybercriminals. Keep backups of important files. Regularly backing up important files can help protect against data loss in the event that your computer is infected with malware. Finally, educate yourself. Stay informed about the latest malware threats and learn how to recognize and avoid them. In conclusion, while the internet is an incredibly powerful tool, it also poses many dangers. By being aware of the risks and taking steps to protect yourself, you can minimize the likelihood of falling victim to malware, viruses, and phishing scams.",
+            "op": "meir",
+            "created_at": "1/1/23"
+        },
+        {
+            "id": 2,
+            "title": "This is my firs guide",
+            "content": "this is my first Guide............",
+            "op": "meir",
+            "created_at": "1/1/23"
+        },
+        {
+            "id": 3,
+            "title": "This is my firs guide",
+            "content": "this is my first Guide............",
+            "op": "meir",
+            "created_at": "1/1/23"
+        }
+    ]
+}

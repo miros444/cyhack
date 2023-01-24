@@ -1,15 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@200&display=swap');
 
 body {
-    background-image: url('../pictures/homeBG.jpg');
-    background-color: black;
-    background-size: cover;
-    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    background-color: #212020;
     font-family: 'Heebo', sans-serif;
     font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    color: white;
 }
 
 .navbar {
@@ -49,20 +45,15 @@ body {
     border-radius: 3px;
 }
 
-.content {
-    font-size: 2.5vh;
-    font-weight: 300;
-    width: 35rem;
-    margin-left: 10%;
+.post {
+    background-color: #000000;
+    color: white;
+    width: 120vh;
+    border-radius: 15px;
+    margin: 0 auto 2vh auto;
+    padding: 7px;
 }
 
-.welcome > p {
+.post h1, .post p {
     margin: 0;
-    transform: translate(0, 10%);
-}
-
-.welcome > h1 {
-    margin: 0;
-    font-size: 3.5em;
-    color: #e5b959;
 }

@@ -1,80 +1,98 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@200&display=swap');
+
+html, body {
     margin: 0;
-    padding: 0;
-    font-family: 'heebo', sans-serif;
+    height: 100%;
+    background-color: black;
 }
 
 body {
-    background-color: rgb(48, 47, 47);
-}
-
-.container {
-    background-color: rgb(2, 2, 2);
-    height: 95%;
-    width: 95%;
-    margin: auto;
-    margin-top: 25px;
-    border: rgba(196, 196, 196, 0.251) solid 0.5px;
-    border-radius: 25px;
-    overflow: hidden;
-    box-shadow: 10px 10px 10px #292727;
+    background: rgb(0,0,0);
+    background: linear-gradient(61deg, rgba(0,0,0,1) 38%, rgba(57,56,56,1) 84%, rgba(84,84,84,1) 91%, rgba(143,141,141,1) 97%, rgba(215,215,215,1) 100%);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100%;
 }
 
 .navbar {
     display: flex;
     justify-content: center;
-    width: 100%;
-    padding: 20px 0;
-    color: white;
-    z-index: 100;
-    border-bottom: #41403fac solid 0.01px;
+    padding: 20px;
+    background: none;
 }
 
 .selected {
-    color: #e5b959 !important;
+    color: #e5b959;
 }
 
 .navbar ul {
     display: flex;
     justify-content: space-around;
-    font-size: 2vh;
     gap: 35px;
     cursor: pointer;
 }
 
 .navbar li {
-    padding: 3.5px;
-    color: white;
     text-decoration: none;
     list-style-type: none;
+}
+
+.navbar li a {
+    color: white;
+    font-size: 3vh;
+    padding: 3.5px;
+    text-decoration: none;
     transition-duration: 350ms;
-    border-radius: 3px;
-    transition-property: background, color;
+    transition-property: background, color, border-radius;
 }
 
-.navbar li:hover {
+.navbar li a:hover {
     background-color: #e5b959;
-    color: black !important;
+    color: black;
+    border-radius: 3px;
 }
 
+.main {
+    padding-top: 50px;
+}
 
 .image {
-    height: 85vh;
+    background: none;
+    height: 75vh;
     float: right;
 }
 
 .content {
-    position: absolute;
-    padding-left: 70px;
+    position: relative;
+    background: none;
     color: white;
-    top: 20%;
-    max-width: 40%;
+    float: left;
+    margin-left: 200px;
+}
+
+.h7 {
+    position: absolute;
+    transform: translate(0, 12px);
 }
 
 .content h1 {
-    font-size: 7vh;
+    margin: 0;
+    font-size: 15vh;
+    font-weight: 100;
+}
+
+.content h1:first-letter{
+    color: #e5b959;
 }
 
 .content p {
+    position: absolute;
+    right: 0;
+    bottom: 5px;
+    margin: 0;
     font-size: 2.6vh;
+    text-align: right;
 }
